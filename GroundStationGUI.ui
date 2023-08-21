@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1726</width>
+    <width>1667</width>
     <height>1303</height>
    </rect>
   </property>
@@ -88,10 +88,10 @@ color: rgb(0, 0, 0);</string>
        <widget class="QLabel" name="label_3">
         <property name="geometry">
          <rect>
-          <x>1640</x>
+          <x>1540</x>
           <y>10</y>
-          <width>51</width>
-          <height>61</height>
+          <width>121</width>
+          <height>71</height>
          </rect>
         </property>
         <property name="text">
@@ -100,247 +100,6 @@ color: rgb(0, 0, 0);</string>
         <property name="pixmap">
          <pixmap>Logo.png</pixmap>
         </property>
-       </widget>
-       <widget class="QWidget" name="widget_3" native="true">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>520</y>
-          <width>641</width>
-          <height>351</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 0, 0);
-border-radius: 10px;</string>
-        </property>
-        <widget class="QLabel" name="label_17">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>0</y>
-           <width>641</width>
-           <height>61</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
-font: 57 14pt &quot;Engravers MT&quot;;
-border-color: rgb(255, 255, 255);
-border-width: 10px;</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TELEMETRY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_18">
-         <property name="geometry">
-          <rect>
-           <x>60</x>
-           <y>100</y>
-           <width>191</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(18, 188, 188);
-color: rgb(255, 255, 255);
-font: 8pt &quot;MS Shell Dlg 2&quot;;
-border-radius: 10px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ALTITUDE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_19">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>50</y>
-           <width>681</width>
-           <height>20</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">font: 22pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(255, 255, 255);</string>
-         </property>
-         <property name="text">
-          <string>---------------------------------------------------------------------------------------------------------------------------</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_20">
-         <property name="geometry">
-          <rect>
-           <x>60</x>
-           <y>220</y>
-           <width>191</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(18, 188, 188);
-color: rgb(255, 255, 255);
-font: 8pt &quot;MS Shell Dlg 2&quot;;
-border-radius: 10px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;AIR PRESSURE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_21">
-         <property name="geometry">
-          <rect>
-           <x>60</x>
-           <y>160</y>
-           <width>191</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(18, 188, 188);
-color: rgb(255, 255, 255);
-font: 8pt &quot;MS Shell Dlg 2&quot;;
-border-radius: 10px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TEMPERATURE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_7">
-         <property name="geometry">
-          <rect>
-           <x>270</x>
-           <y>100</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_8">
-         <property name="geometry">
-          <rect>
-           <x>270</x>
-           <y>160</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_9">
-         <property name="geometry">
-          <rect>
-           <x>270</x>
-           <y>220</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_23">
-         <property name="geometry">
-          <rect>
-           <x>60</x>
-           <y>280</y>
-           <width>191</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(18, 188, 188);
-color: rgb(255, 255, 255);
-font: 8pt &quot;MS Shell Dlg 2&quot;;
-border-radius: 10px;</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::NoFrame</enum>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;AIR SPEED&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_10">
-         <property name="geometry">
-          <rect>
-           <x>270</x>
-           <y>280</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <zorder>label_18</zorder>
-        <zorder>label_19</zorder>
-        <zorder>label_20</zorder>
-        <zorder>label_21</zorder>
-        <zorder>textBrowser_7</zorder>
-        <zorder>textBrowser_8</zorder>
-        <zorder>textBrowser_9</zorder>
-        <zorder>label_17</zorder>
-        <zorder>label_23</zorder>
-        <zorder>textBrowser_10</zorder>
        </widget>
        <widget class="QWidget" name="widget_4" native="true">
         <property name="geometry">
@@ -359,9 +118,9 @@ border-radius: 10px;
         <widget class="QLabel" name="label_22">
          <property name="geometry">
           <rect>
-           <x>-10</x>
+           <x>0</x>
            <y>0</y>
-           <width>691</width>
+           <width>661</width>
            <height>61</height>
           </rect>
          </property>
@@ -370,7 +129,7 @@ border-radius: 10px;
 color: rgb(255, 255, 255);
 font: 57 14pt &quot;Engravers MT&quot;;
 border-color: rgb(255, 255, 255);
-border-width: 10px;</string>
+border-radius: 10px;</string>
          </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;COMMAND&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -393,7 +152,7 @@ color: rgb(255, 255, 255);</string>
           <string>---------------------------------------------------------------------------------------------------------------------------</string>
          </property>
         </widget>
-        <widget class="QTextEdit" name="textEdit_12">
+        <widget class="QTextEdit" name="command_input">
          <property name="geometry">
           <rect>
            <x>40</x>
@@ -430,7 +189,7 @@ border-width: 10px;</string>
           <pixmap>command.png</pixmap>
          </property>
         </widget>
-        <widget class="QPushButton" name="pushButton_11">
+        <widget class="QPushButton" name="command_enter_button">
          <property name="geometry">
           <rect>
            <x>270</x>
@@ -441,7 +200,8 @@ border-width: 10px;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(0, 170, 0);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+</string>
          </property>
          <property name="text">
           <string>Enter</string>
@@ -450,8 +210,8 @@ color: rgb(255, 255, 255);</string>
         <zorder>label_22</zorder>
         <zorder>label_28</zorder>
         <zorder>label_24</zorder>
-        <zorder>textEdit_12</zorder>
-        <zorder>pushButton_11</zorder>
+        <zorder>command_input</zorder>
+        <zorder>command_enter_button</zorder>
        </widget>
        <widget class="QWidget" name="widget_5" native="true">
         <property name="geometry">
@@ -509,42 +269,6 @@ border-radius: 10px;</string>
           <enum>Qt::ScrollBarAlwaysOff</enum>
          </property>
         </widget>
-       </widget>
-       <widget class="QPushButton" name="pushButton">
-        <property name="geometry">
-         <rect>
-          <x>470</x>
-          <y>1030</y>
-          <width>231</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(232, 36, 10);
-color: rgb(0, 0, 0);
-border-radius: 10px</string>
-        </property>
-        <property name="text">
-         <string>SIMULATION</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_2">
-        <property name="geometry">
-         <rect>
-          <x>760</x>
-          <y>1030</y>
-          <width>201</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(0, 170, 0);
-color: rgb(255, 255, 255);
-border-radius: 10px</string>
-        </property>
-        <property name="text">
-         <string>SIMULATION</string>
-        </property>
        </widget>
        <widget class="QWidget" name="widget_6" native="true">
         <property name="geometry">
@@ -832,10 +556,10 @@ border-radius: 10px;</string>
        <widget class="QWidget" name="widget" native="true">
         <property name="geometry">
          <rect>
-          <x>750</x>
+          <x>30</x>
           <y>520</y>
-          <width>731</width>
-          <height>351</height>
+          <width>661</width>
+          <height>401</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -847,7 +571,7 @@ border-radius: 10px;</string>
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>731</width>
+           <width>661</width>
            <height>51</height>
           </rect>
          </property>
@@ -959,47 +683,7 @@ border-radius: 10px;</string>
           <rect>
            <x>370</x>
            <y>100</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_2">
-         <property name="geometry">
-          <rect>
-           <x>370</x>
-           <y>160</y>
-           <width>321</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 10px;</string>
-         </property>
-         <property name="verticalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-         <property name="horizontalScrollBarPolicy">
-          <enum>Qt::ScrollBarAlwaysOff</enum>
-         </property>
-        </widget>
-        <widget class="QTextBrowser" name="textBrowser_3">
-         <property name="geometry">
-          <rect>
-           <x>370</x>
-           <y>220</y>
-           <width>321</width>
+           <width>271</width>
            <height>31</height>
           </rect>
          </property>
@@ -1067,7 +751,92 @@ border-radius: 10px;</string>
           <rect>
            <x>370</x>
            <y>280</y>
-           <width>321</width>
+           <width>271</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_29">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>340</y>
+           <width>271</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_58">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>340</y>
+           <width>301</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;SATS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_2">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>160</y>
+           <width>271</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_3">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>220</y>
+           <width>271</width>
            <height>31</height>
           </rect>
          </property>
@@ -1088,11 +857,13 @@ border-radius: 10px;</string>
         <zorder>label_8</zorder>
         <zorder>label_9</zorder>
         <zorder>textBrowser</zorder>
-        <zorder>textBrowser_2</zorder>
-        <zorder>textBrowser_3</zorder>
         <zorder>label_27</zorder>
         <zorder>label_57</zorder>
         <zorder>textBrowser_28</zorder>
+        <zorder>textBrowser_29</zorder>
+        <zorder>label_58</zorder>
+        <zorder>textBrowser_2</zorder>
+        <zorder>textBrowser_3</zorder>
        </widget>
        <widget class="QTextBrowser" name="textBrowser_66">
         <property name="geometry">
@@ -1136,12 +907,473 @@ border-radius: 10px;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;PACKET COUNT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
+       <widget class="QWidget" name="widget_8" native="true">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>130</y>
+          <width>361</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+        </property>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>0</y>
+           <width>81</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0,0,0);
+color: rgb(0,0,0);
+font: 57 14pt &quot;Engravers MT&quot;;
+border-color: rgb(255, 255, 255);
+border-width: 10px;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>clock.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_12">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>10</y>
+           <width>251</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_9" native="true">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>130</y>
+          <width>661</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+        </property>
+        <widget class="QTextBrowser" name="textBrowser_71">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>10</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_131">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>141</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;HS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_72">
+         <property name="geometry">
+          <rect>
+           <x>510</x>
+           <y>10</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_132">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>10</y>
+           <width>141</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;PS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>590</y>
+          <width>661</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+        </property>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>661</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 57 14pt &quot;Engravers MT&quot;;
+border-color: rgb(255, 255, 255);
+border-width: 10px;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TELEMETRY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>100</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ALTITUDE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>50</y>
+           <width>681</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 22pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>---------------------------------------------------------------------------------------------------------------------------</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>220</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;AIR PRESSURE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>160</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TEMPERATURE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_7">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>321</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_8">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>160</y>
+           <width>321</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_9">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>220</y>
+           <width>321</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>280</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 188, 188);
+color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;AIR SPEED&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <widget class="QTextBrowser" name="textBrowser_10">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>280</y>
+           <width>321</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+        </widget>
+        <zorder>label_18</zorder>
+        <zorder>label_19</zorder>
+        <zorder>label_20</zorder>
+        <zorder>label_21</zorder>
+        <zorder>textBrowser_7</zorder>
+        <zorder>textBrowser_8</zorder>
+        <zorder>textBrowser_9</zorder>
+        <zorder>label_17</zorder>
+        <zorder>label_23</zorder>
+        <zorder>textBrowser_10</zorder>
+       </widget>
+       <widget class="QWidget" name="widget_10" native="true">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>490</y>
+          <width>661</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 10px;
+</string>
+        </property>
+        <widget class="QTextEdit" name="command_input_2">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>20</y>
+           <width>451</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>171</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 57 14pt &quot;Engravers MT&quot;;
+border-color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ECHO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+        <zorder>label_34</zorder>
+        <zorder>command_input_2</zorder>
+       </widget>
+       <zorder>label</zorder>
+       <zorder>label_2</zorder>
+       <zorder>widget_4</zorder>
+       <zorder>widget_5</zorder>
+       <zorder>widget_6</zorder>
+       <zorder>widget_7</zorder>
+       <zorder>widget</zorder>
+       <zorder>textBrowser_66</zorder>
+       <zorder>label_126</zorder>
+       <zorder>label_3</zorder>
+       <zorder>widget_8</zorder>
+       <zorder>widget_9</zorder>
+       <zorder>widget_3</zorder>
+       <zorder>widget_10</zorder>
       </widget>
       <widget class="QWidget" name="tab_2">
        <attribute name="title">
         <string>GRAPHS</string>
        </attribute>
-       <widget class="QWidget" name="">
+       <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
           <x>70</x>
