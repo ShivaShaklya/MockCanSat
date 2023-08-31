@@ -17,6 +17,7 @@ pressure=[]
 r=csv.reader(f)
 columns=next(r)
 row=next(r)
+packets=0
 
 
 class Ui_MainWindow(object):
@@ -31,6 +32,9 @@ class Ui_MainWindow(object):
                 self.ui.VT.setTitle("VOLTAGE V/s Time")
                 self.ui.PT.setTitle("PRESSURE V/s Time")
                 self.ui.TT.setTitle("gps_altitude V/s Time")
+
+                self.ui.csv_display.setRowCount(8000)
+                self.ui.csv_display.setColumnCount(21)
 
                 self.ui.command_enter_button.clicked.connect(self.command)
 
@@ -148,6 +152,8 @@ class Ui_MainWindow(object):
                                 self.ui.L_tiltY.setText(row[18])
                                 self.ui.L_rotZ.setText(row[19])
                                 self.ui.L_echo.setText(row[20])
+                                
+                                self.load_data()
                         except Exception as exc:
                                 print(exc)
 
@@ -177,6 +183,17 @@ class Ui_MainWindow(object):
         def Pause(self):
                 #print(row)
                 self.Timer.stop() #PAUSES PLOTTING!!!!!!!!!!!!!!!!!!!!!
+        
+        def load_data(self):
+                global row
+                global packets
+                for i in row:
+                        for j in range(0,21):
+                                self.ui.csv_display.setItem(packets,j,QTableWidgetItem(str(row[j])))
+                packets+=1
+        
+        #def create_csv(self):
+
         
         def run(self):
                 self.app.exec_()
