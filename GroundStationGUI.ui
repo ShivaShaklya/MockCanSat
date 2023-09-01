@@ -216,8 +216,8 @@ color: rgb(255, 255, 255);
        <widget class="QWidget" name="widget_5" native="true">
         <property name="geometry">
          <rect>
-          <x>250</x>
-          <y>130</y>
+          <x>140</x>
+          <y>131</y>
           <width>401</width>
           <height>81</height>
          </rect>
@@ -1473,13 +1473,13 @@ border-radius: 10px;</string>
        <attribute name="title">
         <string>GPS</string>
        </attribute>
-       <widget class="QGraphicsView" name="graphicsView_5">
+       <widget class="QWebEngineView" name="map_display" native="true">
         <property name="geometry">
          <rect>
-          <x>70</x>
-          <y>70</y>
-          <width>521</width>
-          <height>541</height>
+          <x>60</x>
+          <y>50</y>
+          <width>1931</width>
+          <height>1271</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -1620,7 +1620,7 @@ color: rgb(0, 0, 0);</string>
        <widget class="QPushButton" name="convert_csv">
         <property name="geometry">
          <rect>
-          <x>980</x>
+          <x>880</x>
           <y>1290</y>
           <width>291</width>
           <height>61</height>
@@ -1649,6 +1649,12 @@ font: 63 10pt &quot;Sitka Display Semibold&quot;;</string>
    <class>PlotWidget</class>
    <extends>QGraphicsView</extends>
    <header>pyqtgraph</header>
+  </customwidget>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">qwebengineview.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

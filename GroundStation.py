@@ -1,9 +1,14 @@
 from PyQt5 import QtCore, QtGui, QtWidgets,uic
 from pyqtgraph import PlotWidget
+from PyQt5.QtWebEngineWidgets import QWebEngineView
+from geopy.geocoders import ArcGIS
+import folium
+import io
 import csv
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QThread,QObject,pyqtSignal
 import re
+
 
 f=open("Simution_data.csv","r")
 time=[]
@@ -60,6 +65,7 @@ class Ui_MainWindow(object):
                         elif cmd[1]=="OFF":
                               print("Not Transmitting")
                               self.Pause()
+                              self.map_plot()
 
 
                         else:
@@ -193,8 +199,17 @@ class Ui_MainWindow(object):
                 packets+=1
         
         #def create_csv(self):
+        def map_plot(self):
+                nom=ArcGIS()
+                gps=nom.geocode("Vellore")
+                gps_latitude=gps.latitude
+                gps_longitude=gps.longitude
+                map=folium.Map(location=[gps_latitude,gps_longitude],zoom_start=12)#zoom_start(default)=10
+                map.add_child(folium.Marker(location=[gps_latitude,gps_longitude],icon=folium.Icon(color="red"),popup="CanSat"))
+                map_data=io.BytesIO()
+                map.save(map_data,close_file=False)
+                self.ui.map_display.setHtml(map_data.getvalue().decode())
 
-        
         def run(self):
                 self.app.exec_()
 
