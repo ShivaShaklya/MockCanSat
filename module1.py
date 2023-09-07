@@ -2,14 +2,15 @@ import serial
 from geopy.geocoders import ArcGIS
 import folium
 def read_data():
-    arduino_data=serial.Serial("COM3",9600);
+    arduino_data=serial.Serial("COM4",9600);
     while True:
         while arduino_data.inWaiting()==0:
             print("Hello")
             pass
-        arduino_string=arduino_data.raedline()
+        print(arduino_data)
+        '''arduino_string=arduino_data.raedline()
         data=arduino_string.split(",")
-        print(data)
+        print(data)'''
 def send_data():
     # Define the serial port and baud rate (make sure to set these to match your setup)
     serial_port = "COM3"  # Change this to your XBee's serial port
@@ -33,10 +34,4 @@ def send_data():
     except serial.SerialException as e:
         print(f"Error: {e}")
 #
-nom=ArcGIS()
-gps=nom.geocode("Vellore")
-gps_latitude=gps.latitude
-gps_longitude=gps.longitude
-map=folium.Map(location=[gps_latitude,gps_longitude],zoom_start=15)#zoom_start(default)=10
-map.add_child(folium.Marker(location=[gps_latitude,gps_longitude],icon=folium.Icon(color="red"),popup="CanSat"))
-map.save("footprint.html")
+read_data()
