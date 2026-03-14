@@ -32,7 +32,7 @@ class Ui_MainWindow(object):
 
         def __init__(self,app):
                 self.app=app
-                self.ui=uic.loadUi(r"C:\\Users\\shiva\\OneDrive\\Desktop\\Git_Pro\\MockCanSat\\GroundStationGUI.ui")
+                self.ui=uic.loadUi(r"Frontend\\GroundStationGUI.ui")
 
                 self.ui.ALT.setTitle("Altitude V/s Time",color="k", size="10pt")
                 self.ui.AST.setTitle("AIR_SPEED V/s Time",color="k", size="10pt")
