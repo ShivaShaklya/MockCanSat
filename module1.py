@@ -1,6 +1,4 @@
 import serial
-from geopy.geocoders import ArcGIS
-import folium
 def read_data():
     arduino_data=serial.Serial("COM4",9600);
     while True:

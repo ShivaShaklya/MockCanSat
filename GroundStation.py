@@ -10,8 +10,7 @@ from PyQt5.QtCore import QThread,QObject,pyqtSignal
 from PyQt5.QtGui import QPen, QColor
 import re
 
-
-f=open("Simution_data.csv","r")
+f=open("Simulation_data.csv","r")
 time=[]
 altitude=[]
 air_speed=[]
@@ -25,13 +24,15 @@ r=csv.reader(f)
 columns=next(r)
 row=next(r)
 packets=0
+flag1=False
+flag2=False
 
 
 class Ui_MainWindow(object):
 
         def __init__(self,app):
                 self.app=app
-                self.ui=uic.loadUi("GroundStationGUI.ui")
+                self.ui=uic.loadUi(r"C:\\Users\\shiva\\OneDrive\\Desktop\\Git_Pro\\MockCanSat\\GroundStationGUI.ui")
 
                 self.ui.ALT.setTitle("Altitude V/s Time",color="k", size="10pt")
                 self.ui.AST.setTitle("AIR_SPEED V/s Time",color="k", size="10pt")
@@ -83,8 +84,8 @@ class Ui_MainWindow(object):
                                 print("ERROR: INCORRECT INPUT")
                 #SIM - Simulation Mode Control Command
                 elif cmd[0]=="SIM":
-                        flag1=False
-                        flag2=False
+                        global flag1
+                        global flag2
                         if cmd[1]=="ENABLE":
                                 flag1=True
                                 print("Enabled")
@@ -225,7 +226,8 @@ class Ui_MainWindow(object):
                 packets+=1
         
         def convert_to_csv(self):
-                try:
+                pass
+                '''try:
                         with open('data_packets.csv', 'w', newline='') as csvfile:
                                 writer = csv.writer(csvfile)
                                 writer.writerow(columns)
@@ -243,8 +245,7 @@ class Ui_MainWindow(object):
                                 print("Data from csv_display converted to CSV: simulation_results.csv")
                         
                 except Exception as exc:
-                        print("Error while converting to CSV:", exc)
-
+                        print("Error while converting to CSV:", exc)'''
 
         def map_plot(self):
                 nom=ArcGIS()
