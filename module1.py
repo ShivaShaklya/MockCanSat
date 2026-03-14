@@ -1,14 +1,13 @@
 import serial
+
 def read_data():
-    arduino_data=serial.Serial("COM4",9600);
+    arduino_data=serial.Serial("COM4",9600)
     while True:
         while arduino_data.inWaiting()==0:
             print("Hello")
             pass
         print(arduino_data)
-        '''arduino_string=arduino_data.raedline()
-        data=arduino_string.split(",")
-        print(data)'''
+
 def send_data():
     # Define the serial port and baud rate (make sure to set these to match your setup)
     serial_port = "COM3"  # Change this to your XBee's serial port
